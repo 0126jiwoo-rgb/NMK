@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "nmk-web",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5178", "--bind", "0.0.0.0", "--directory", "nmk-web-kit"],
+      "port": 5178
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+.DS_Store
+
+# Full-size source photos for the hero; the site serves the resized copies in nmk-web-kit/img/hero
+images/
