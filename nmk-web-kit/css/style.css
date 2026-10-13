@@ -131,9 +131,10 @@ address { font-style: normal; }
 .notice { background: var(--section); overflow: hidden; transition: height 0.42s var(--ease-io), opacity 0.3s ease; }
 .notice__inner {
   display: flex; align-items: center; gap: 10px;
-  min-height: 48px; max-width: var(--col); margin-inline: auto; padding: 8px 22px 8px var(--gutter);
+  min-height: 48px; max-width: var(--col); margin-inline: auto; padding: 8px 22px 8px calc(var(--gutter) - 3px);
+  border-left: 3px solid var(--purple); /* accent rule sits with the content, so on tablets it doesn't drift to the screen edge */
 }
-.notice__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--purple); flex: none; }
+.notice__icon { width: 16px; height: 16px; flex: none; color: var(--purple); }
 .notice__text { flex: 1; font: 500 13px/1.35 var(--sans); color: var(--ink); text-wrap: pretty; }
 .notice__link { text-decoration: underline; text-decoration-color: var(--purple); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .notice__close { width: 32px; height: 32px; display: grid; place-items: center; border-radius: 16px; margin-right: -7px; transition: background-color 0.2s; }
