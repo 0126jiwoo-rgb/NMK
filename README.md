@@ -4,6 +4,13 @@ A mobile website concept for the National Museum of Korea (국립중앙박물관
 
 > Unofficial design concept. Not affiliated with or endorsed by the National Museum of Korea. The museum's name, logo and photos belong to their respective owners.
 
+## About this project
+
+- **Course:** UX 360: Information Architecture
+- **Timeline:** 2-week assignment
+- **Scope:** Built around the landing page, with the key screens it links to (search, tickets, history)
+- **Approach:** Referenced the museum's current website ([museum.go.kr](https://www.museum.go.kr)) and designed on the basis of information architecture and research
+
 ## Run locally
 
 ```bash
